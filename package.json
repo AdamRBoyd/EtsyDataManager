@@ -1,0 +1,10 @@
+{
+    "name": "etsy-json-editor",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"npm run dev --prefix Frontend\" \"npm run dev --prefix Backend\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.0"
+    }
+}
